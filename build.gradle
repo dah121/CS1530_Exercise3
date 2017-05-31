@@ -15,6 +15,11 @@ task plumbus << {
     println "A plumbus for you!"
 }
 
+task sequencehelp << {
+    println "Integer Sequence Project"
+    println "Given the input 'lazy SOME 32-bit INT' or 'triangle SOME 32-bit INT' the program will out put the Lazy Caterer number, the maximum number p of pieces (input) that can be created with a given number of cuts n (output), where n >= 0. Or the Triangle number, the number of objects that can form an equilateral triangle thats base is length n (input)."
+}
+
 run{
     try{
         systemProperties System.getProperties()
