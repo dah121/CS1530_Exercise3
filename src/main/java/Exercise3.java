@@ -34,7 +34,6 @@ public class Exercise3
                         x = lazy(x);
                         System.out.println("Lazy(n) = " + x);
                     }
-                    //add triangle here
                     if(args[0].equals("triangle") || args[0].equals("Triangle"))
                     {
                         x = triangle(x);
